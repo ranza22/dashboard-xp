@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Meyson</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Meyson</h1>
+    <p>Status: Aprendendo & Editando</p>
+
+    <h2>Metas</h2>
+    <ul>
+        <li>Aprender HTML</li>
+        <li>Aprender CSS</li>
+        <li>Aprender JavaScript</li>
+        <li>Fazer Projetos</li>
+    </ul>
+
+    <!-- HTML -->
+    <h3>HTML</h3>
+    <p id="htmlPorcentagem">0%</p>
+    <p id="htmlLevel">Level: 1</p>
+
+    <div style="background: #333; width: 100%; height: 20px;">
+        <div id="htmlBarra" style="background: #00ff88; width: 0%; height: 100%;"></div>
+    </div>
+
+    <button onclick="ganharXP('html')">+ XP</button>
+
+
+    <!-- JavaScript -->
+    <h3>JavaScript</h3>
+    <p id="jsPorcentagem">0%</p>
+        <p id="jsLevel">Level: 1</p>
+
+
+    <div style="background: #333; width: 100%; height: 20px;">
+        <div id="jsBarra" style="background: #00ff88; width: 0%; height: 100%;"></div>
+    </div>
+
+    <button onclick="ganharXP('js')">+ XP</button>
+
+
+    <!-- CSS -->
+    <h3>CSS</h3>
+    <p id="cssPorcentagem">0%</p>
+        <p id="cssLevel">Level: 1</p>
+
+
+    <div style="background: #333; width: 100%; height: 20px;">
+        <div id="cssBarra" style="background: #00ff88; width: 0%; height: 100%;"></div>
+    </div>
+
+    <button onclick="ganharXP('css')">+ XP</button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

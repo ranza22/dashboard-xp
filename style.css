@@ -1,0 +1,44 @@
+body {
+  background-color: #0d0d0d;
+  color: #00ff88;
+  font-family: monospace;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #00cc66;
+}
+
+p, li {
+  color: #cccccc;
+}
+.skill {
+  margin-bottom: 15px;
+}
+
+.barra {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progresso {
+  background-color: #00ff88;
+  padding: 5px;
+  color: black;
+  font-size: 12px;
+}
+
+/* níveis */
+.html {
+  width: 50%;
+}
+
+.css {
+  width: 20%;
+}
