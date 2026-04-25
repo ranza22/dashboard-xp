@@ -1,0 +1,111 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  background-color: #000;
+  color: #00ff88;
+  font-family: 'Orbitron', sans-serif;
+  padding: 30px;
+}
+
+/* TITULO */
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #00ff88;
+}
+
+/* STATUS */
+p {
+  margin-bottom: 20px;
+  color: #aaa;
+}
+
+/* SEÇÕES (CARDS) */
+.section {
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 10px rgba(0, 255, 136, 0.2);
+}
+
+/* TITULOS DAS SEÇÕES */
+.section h2 {
+  margin-bottom: 15px;
+  color: #00ff88;
+}
+
+/* LISTA */
+ul {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* PROGRESSO */
+.progress-container {
+  margin-top: 10px;
+  background: #333;
+  height: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* BARRA DE XP */
+.progress-bar {
+  height: 100%;
+  width: 30%; /* você altera isso */
+  background: linear-gradient(90deg, #00ff88, #00ccff);
+  border-radius: 10px;
+  transition: width 0.5s ease;
+  box-shadow: 0 0 10px #00ff88;
+}
+
+/* TEXTO DE LEVEL */
+.level {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* BOTÃO XP */
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  background: #00ff88;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+/* HOVER BOTÃO */
+button:hover {
+  background: #00ccff;
+  box-shadow: 0 0 10px #00ccff;
+
+.cronometro {
+  margin-top: 100px; /* empurra bem pra baixo */
+  text-align: center;
+}
+
+#tempo {
+  font-size: 90px; /* bem grande */
+  color: #00ff88;
+  text-shadow: 0 0 20px #00ff88;
+
+  .cronometro {
+  position: relative;
+  top: 100px;
+}
+}
+}
