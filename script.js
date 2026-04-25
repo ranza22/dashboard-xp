@@ -1,5 +1,3 @@
- HEAD
-
 // SKILLS (XP)
  console.log("JS carregou")
 
